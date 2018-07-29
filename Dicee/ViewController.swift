@@ -32,9 +32,6 @@ class ViewController: UIViewController {
     }
     
     func updateDiceImages(){
-//        print(getRandomDiceIndex())
-        
-        
         diceImageView1.image = UIImage(named: getRandomDiceImage())
         diceImageView2.image = UIImage(named: getRandomDiceImage())
     }
